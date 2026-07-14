@@ -6,14 +6,14 @@
 
 cask "voltbar" do
   version "1.0.0"
-  sha256 "22726028c845314ccd3c4969a4796537c8ef036116b8e167bc508832ba9996ae"
+  sha256 "df4610dee43c72e2fd9cb4ce885556f096020d74dd34fc2500950283f43f5458"
 
   url "https://github.com/biszx/voltbar/releases/download/#{version}/VoltBar-#{version}.zip"
   name "VoltBar"
   desc "macOS menu bar battery utility"
   homepage "https://github.com/biszx/voltbar"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "VoltBar.app"
 
