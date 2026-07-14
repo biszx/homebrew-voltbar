@@ -13,7 +13,7 @@ cask "voltbar" do
   desc "macOS menu bar battery utility"
   homepage "https://github.com/biszx/voltbar"
 
-  depends_on macos: :sequoia
+  depends_on macos: ">= :sequoia"
 
   app "VoltBar.app"
 
